@@ -21,25 +21,25 @@ function generateQuestion() {
       <form role="form" accept-charset="UTF-8">
         <fieldset>
           <label>
-            <input type="radio" class="answer" name="option" value="${
+            <input type="checkbox" class="answer" name="option" value="${
               STORE[questionNumber - 1].answer1
             }"/>
             ${STORE[questionNumber - 1].answer1}<br>
           </label>
           <label>
-            <input type="radio" class="answer" name="option" value="${
+            <input type="checkbox" class="answer" name="option" value="${
               STORE[questionNumber - 1].answer2
             }"/>
             ${STORE[questionNumber - 1].answer2}<br>
           </label>
           <label>
-            <input type="radio" class="answer" name="option" value="${
+            <input type="checkbox" class="answer" name="option" value="${
               STORE[questionNumber - 1].answer3
             }"/>
             ${STORE[questionNumber - 1].answer3}<br>
           </label>
           <label>
-            <input type="radio" class="answer" name="option" value="${
+            <input type="checkbox" class="answer" name="option" value="${
               STORE[questionNumber - 1].answer4
             }"/>
             ${STORE[questionNumber - 1].answer4}<br>
@@ -104,7 +104,7 @@ function correctAnswerFeedback() {
   $('#container').hide();
   $('footer').show();
   $('.questionAnswerForm').html(`<div role="banner" class="results">
-    <iframe src="https://giphy.com/embed/DxUiFqLgDVC00" width="480" height="330" frameBorder="0" class="giphy" alt="10 Points For Gryffindor" allowFullScreen></iframe>
+    <iframe src="images/correctanswer.gif" width="500" height="211" frameBorder="1" class="giphy" alt="Correct Answer" allowFullScreen></iframe>
     <button type="submit" class="nextQuestion">Next Question</button>
     </div>`);
   if (questionNumber <= STORE.length) {
@@ -121,10 +121,8 @@ function incorrectAnswerFeedback() {
   $('#container').hide();
   $('footer').show();
   $('.questionAnswerForm').html(`<div role="banner" class="results">
-    <h2>Nope, The Correct Answer Is ${
-      STORE[questionNumber - 2].correctAnswer
-    }!</h2>
-    <iframe src="https://giphy.com/embed/mqSiZYc0KxyYo" width="480" height="195" frameBorder="0" class="giphy" alt="McGonnagal says Sorry Potter" allowFullScreen></iframe>
+    <h2>Nope, The Correct Answer Is ${STORE[questionNumber - 2].correctAnswer}!</h2>
+    <iframe src="images/incorrectanswer.gif" width="500" height="211" frameBorder="1" class="giphy" alt="Incorrect Answer" allowFullScreen></iframe>
     <button type="submit" class="nextQuestion">Next Question</button>
     </div>`);
   if (questionNumber <= STORE.length) {
@@ -147,16 +145,16 @@ function generateResults() {
   if (score >= 8) {
     return $('.resultsPage').html(`<header role="banner">
         <h1 class="resultsHeader">You Are The Chosen One!</h1>
-        <p><iframe src="https://giphy.com/embed/gbErpwcLlizvi" width="480" height="247" frameBorder="0" class="giphy" alt="Hogwarts Celebration" allowFullScreen></iframe></p>
+        <p><iframe src="images/passed.gif" width="480" height="247" frameBorder="0" class="giphy" alt="Hogwarts Celebration" allowFullScreen></iframe></p>
         <h2>You Got ${score} Out Of 10 Correct</h2>
         <button type="submit" class="restartQuiz">Restart Quiz</button>
       </header >`);
   } else {
     return $('.resultsPage')
-      .html(`<header role="banner"><h1 class="resultsHeader">The Dark Lord Has Defeated You!</h1>
-      <p><iframe src="https://giphy.com/embed/JAbAmpu1TshlS" width="480" height="198" frameBorder="0" class="giphy" alt="Voldemort Avada Kedavra" allowFullScreen></iframe></p>
+      .html(`<header role="banner"><h1 class="resultsHeader">Avada Kedavra!</h1>
+      <p><iframe src="images/didnotpass.gif" width="245" height="172" frameBorder="1" class="giphy" alt="Voldemort Laughing" allowFullScreen></iframe></p>
       <h2>You Got ${score} Out Of 10 Correct</h2>
-      <button type="submit" class="restartQuiz">Restart Quiz</button>
+      <button type="submit" class="restartQuiz">Return from King's Cross & Restart Quiz</button>
       </header >`);
   }
 }

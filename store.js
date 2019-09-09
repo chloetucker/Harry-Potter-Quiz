@@ -1,103 +1,101 @@
 const STORE = [
   {
     questionNumber: 1,
-    question: "When is Harry's Birthday?",
-    answer1: 'June 10th',
-    answer2: 'July 31st',
-    answer3: 'August 3rd',
-    answer4: 'September 1st',
-    correctAnswer: 'July 31st'
+    question: "When is Hermione's birthday?",
+    answer1: 'February 12',
+    answer2: 'October 2',
+    answer3: 'September 19',
+    answer4: 'April 20',
+    correctAnswer: 'September 19'
   },
   {
     questionNumber: 2,
     question:
-      'One of the first signs of magic on Privet Drive is an animagus cat. Which character was this watching over Harry?',
-    answer1: 'Professor Dumbledore',
-    answer2: 'James Potter',
-    answer3: 'Hagrid',
-    answer4: 'Professor McGonagall',
-    correctAnswer: 'Professor McGonagall'
+      "Many know that Gryffindor's ghost is Nearly Headless Nick. But what is his full name?",
+    answer1: 'Sir Nicholas de Flimsy-Corporatist',
+    answer2: 'Sir Nicholas Thatcher',
+    answer3: 'Sir Nicholas de Nimby-Larpertons',
+    answer4: 'Sir Nicholas de Mimsy-Porpington',
+    correctAnswer: 'Sir Nicholas de Mimsy-Porpington'
   },
   {
     questionNumber: 3,
     question:
-      "In the Sorcerer's Stone, Harry, Ron and Hermoine end up playing a game of chess in order to get to the stone. Who has to sacrifice themselves so that the others can move forward.",
-    answer1: 'Harry',
-    answer2: 'Ron',
-    answer3: 'Hermoine',
-    answer4: 'Nobody, they trick the board and all move forward',
-    correctAnswer: 'Ron'
+      "How many staircases are there in Hogwarts?",
+    answer1: '142',
+    answer2: '116',
+    answer3: '210',
+    answer4: "Nobody knows since they're always moving.",
+    correctAnswer: '142'
   },
   {
     questionNumber: 4,
     question:
-      'In which book do wizards from other schools come to Hogwarts to compete in the Triwizard Tournament?',
-    answer1: 'The Goblet of Fire',
-    answer2: 'The Order of the Phoenix',
-    answer3: 'The Chamber of Secrets',
-    answer4: 'The Half-Blood Prince',
-    correctAnswer: 'The Goblet of Fire'
+      "Dumbledore has a scar above his left knee that is a perfect map of what?",
+    answer1: 'Diagon Alley',
+    answer2: 'The London Underground',
+    answer3: 'Location of his favorite lemon drop confectionary',
+    answer4: 'The Forbidden Forest',
+    correctAnswer: 'The London Underground'
   },
   {
     questionNumber: 5,
     question:
-      'Barty Crouch Jr assumes the form of Alastor Moody by using which magical spell?',
-    answer1: 'The Transfiguration Spell',
-    answer2: 'Transforming Powder',
-    answer3: 'Polyjuice Potion',
-    answer4: "Beetle's Tongue Juice",
-    correctAnswer: 'Polyjuice Potion'
+      "Harry first took the Knight Bus in The Prisoner of Azkaban. How much does a ticket cost if it includes hot chocolate?",
+    answer1: '1 Galleon, 2 Knuts',
+    answer2: '12 Knuts',
+    answer3: '12 Sickles',
+    answer4: '14 Sickles',
+    correctAnswer: '14 Sickles'
   },
   {
     questionNumber: 6,
     question:
-      'In the summer before his 5th year, Harry uses magic over the summer holiday, almost getting himself expelled. Why did he use magic?',
-    answer1:
-      'To hang Dudley upside down from a tree after he made fun of Harry',
-    answer2: 'To send Cho Chang a romantic gift',
-    answer3: 'To do the dishes because he was too lazy',
-    answer4: 'To save Dudley and himself from Dementors',
-    correctAnswer: 'To save Dudley and himself from Dementors'
+      'What was the name of the Bulgarian Minister for Magic in the Goblet of Fire?',
+    answer1: 'Slaveykov',
+    answer2: 'Marinov',
+    answer3: 'Oblansk',
+    answer4: 'Hazurov',
+    correctAnswer: 'Oblansk'
   },
   {
     questionNumber: 7,
     question:
-      'After Professor Umbridge becomes the new Defense Against the Dark Arts teacher but refuses to teach her students defensive skills, Harry, Ron and Hermoine form their own club called what?',
-    answer1: "Dumbledore's Army",
-    answer2: 'Students Against Umbridge',
-    answer3: 'Teach Yourself DATDA',
-    answer4: 'Magical Defense Strategies',
-    correctAnswer: "Dumbledore's Army"
+      "In the Deathly Hallows, what protective spells were used in the Lestrange Vault?",
+    answer1: 'Gemino Curse',
+    answer2: 'Reducto',
+    answer3: 'Gemino and Flagrante Curses',
+    answer4: 'Mobiliarbus',
+    correctAnswer: 'Gemino and Flagrante Curses'
   },
   {
     questionNumber: 8,
     question:
-      'In The Deathly Hallows, Harry believes he may have been killed by Voldemort, but ends up in a kind of purgatory. What familiar location does he end up at?',
-    answer1: 'Hogsmeade',
-    answer2: '4 Privet Drive',
-    answer3: 'Kings Cross Station',
-    answer4: 'Gringotts Bank',
-    correctAnswer: 'Kings Cross Station'
+      'How many brothers does Ron Weasley have?',
+    answer1: '4',
+    answer2: '7',
+    answer3: '5',
+    answer4: '6',
+    correctAnswer: '5'
   },
   {
     questionNumber: 9,
     question:
-      "In the final books' epilogue, we find out that Ron and Hermoine have 2 children. What are thier names?",
-    answer1: 'Rose and Hugo',
-    answer2: 'Albus and Cynthia',
-    answer3: 'Fred and Lily',
-    answer4: 'Samantha and Steven',
-    correctAnswer: 'Rose and Hugo'
+      "Which of the following is NOT an available drink at the Three Broomsticks in Hogsmeade?",
+    answer1: 'Gurdyroot infusion',
+    answer2: 'Gillywater',
+    answer3: 'Red current rum',
+    answer4: 'Butter beer',
+    correctAnswer: 'Gurdyroot infusion'
   },
   {
     questionNumber: 10,
     question:
-      'After the entire series was released, JK Rowling revealed what surprising detail about Professor Dumbledore?',
-    answer1: "He was Harry's grandfather",
-    answer2: 'He was gay',
-    answer3:
-      'He was the winner of the first season of The Great British Baking Show',
-    answer4: 'He was actually a death eater',
-    correctAnswer: 'He was gay'
+      "Who was the author of the Monster Book of Monsters?",
+    answer1: 'Edwardus Lima',
+    answer2: 'Libatius Borage',
+    answer3: 'Bathilda Bagshot',
+    answer4: 'Eldred Worple',
+    correctAnswer: 'Edwardus Lima'
   }
 ];
