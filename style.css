@@ -3,15 +3,15 @@
 }
 
 html {
-  background: url('https://i.pinimg.com/originals/58/4c/19/584c19801a64c5f5f198b6c441d0cf7e.jpg')
+  background: url('images/bg.png');
     center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  align-content: center;
-  font-family: 'Crimson Text', Helvetica Neue;
-  font-size: 18px;
+  align-content:    center;
+  font-family: 'Crimson Text';
+  font-size: 22px;
 }
 
 header {
@@ -73,6 +73,7 @@ fieldset,
 .questionPage {
   background-color: rgba(99, 97, 97, 0.5);
   margin: 10px;
+  border: 1 pt;
 }
 
 .questionAnswerForm,
@@ -90,8 +91,8 @@ p {
 }
 
 iframe.giphy {
-  width: 80%;
-  height: auto;
+  width: 400;
+  height: 400;
 }
 
 .resultsHeader {
@@ -102,11 +103,11 @@ button {
   width: 40%;
   padding: 10px;
   align-content: center;
-  background-color: white;
+  background-color: #C0C0C0;
   font-size: 0.7em;
   margin: 10px;
   border-radius: 5px;
-  border: none;
+  border: 1 pt;
   cursor: pointer;
 }
 
@@ -116,7 +117,8 @@ footer {
   text-align: center;
   justify-content: space-evenly;
   width: 100%;
-  background-color: rgba(99, 97, 97, 0.8);
+  border-radius: 5px;
+  background-color: #696969;
 }
 
 @media screen and (min-width: 331px) {
