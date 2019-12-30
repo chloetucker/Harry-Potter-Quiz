@@ -1,14 +1,8 @@
 # Harry Potter Quiz
 An interactive quiz for fellow enthusiasts that allows the user to easily iterate through each question, ultimately getting their final score of correctly answered questions.
 
-## Live Page
-TBD
-
 ## Motivation
 I love Harry Potter and the original quiz told me I was the Chosen One, so I had do something with it. I used this as a learning experience for playing with Javascript.
-
-## Built With
-HTML, CSS, and JavaScript.
 
 ## Features
 * 10 questions will quiz the user and match their answer to a store of correct answers.
@@ -16,5 +10,8 @@ HTML, CSS, and JavaScript.
 * User will ultimately earn enough points to defeat the Dark Lord ( >= 8 ), or be defeated ( < 8 ).
 * User has option to start the quiz over and make another attempt.
 
-## Struggles
-N/A
+## Ideas to Improve
+* Allow user to only select one answer checkbox per question
+* Randomize question order 
+* Randomize wrong answer images
+* Randomize right answer images
